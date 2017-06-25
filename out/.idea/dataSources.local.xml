@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - sailgo@localhost" uuid="646f669e-9ac2-43bb-87aa-f5f8b6306164">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>sailgo.*</schema-pattern>
+      <default-schemas>sailgo.*</default-schemas>
+    </data-source>
+  </component>
+</project>

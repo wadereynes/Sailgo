@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="NewPersistenceUnit">
+
+        <class>com.sailgo.entity.UserEntity</class>
+        <class>com.sailgo.entity.OriginListEntity</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_e8f5e67a93eb8a9?reconnect=true"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.userModel"/>
+            <property name="eclipselink.jdbc.password"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_e8f5e67a93eb8a9?reconnect=true"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.username"/>
+            <property name="hibernate.connection.password"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_e8f5e67a93eb8a9?reconnect=true"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionUserName"/>
+            <property name="openjpa.ConnectionPassword"/>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/heroku_e8f5e67a93eb8a9?reconnect=true"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="toplink.jdbc.userModel"/>
+            <property name="toplink.jdbc.password"/>
+            <property name="eclipselink.jdbc.user"/>
+            <property name="toplink.jdbc.user"/>
+        </properties>
+
+
+
+
+
+    </persistence-unit>
+</persistence>
